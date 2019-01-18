@@ -1,0 +1,32 @@
+:root {
+  --main-bg-color: #fff;
+  --main-text-color: #2d3142;
+  --second-text-color: #4f5d75;
+  --alt-bg-color: #ef8354;
+  --alt-text-color: #fff;
+}
+body {
+  margin: 0;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
+    Helvetica Neue, Arial, sans-serif;
+  font-size: calc(12px + 1vw);
+}
+
+.splash {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+  padding-top: 20vh;
+  height: 100vh;
+  color: var(--alt-text-color);
+  background-color: var(--alt-bg-color);
+}
+
+.splash h1 {
+  font-size: 60px;
+}
+
+.splash a {
+  color: var(--alt-text-color);
+}
