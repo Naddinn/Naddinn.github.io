@@ -14,7 +14,7 @@ body {
   position: relative;
 }
 .splash {
-  height: 63vh;
+  height: 64vh;
   padding: 10vh 0px;
   /* margin-bottom: 10vh; */
   /* justify-content: space-between; */
@@ -59,7 +59,7 @@ body {
   min-height: 10vh;
   margin-left: -5vh;
   left: 50%;
-  top: 77vh;
+  top: 78vh;
   transform: rotate(45deg);
   border-radius: 15%;
 }
